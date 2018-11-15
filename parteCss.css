@@ -1,0 +1,111 @@
+
+body {
+	background: #69C5C5;
+	margin: 0; /*para poner el margen del cuerpo en cero*/
+	}
+	
+#video-background {
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#contenedor {
+	position: relative;
+    box-shadow: 0px 5px 15px #026868;
+    box-shadow: 0px 5px 15px #999 inset, -10px 5px 20px #026868;
+	height: 40vh;
+	width: 100%;
+}
+
+img {
+	display:block; /*hace de la imagen un bloque*/
+	position:absolute; /*nos cambia la imagen de posición dependiendo de su posición inicial*/
+	margin:auto; /*centra la imagen*/
+	width: 15%;
+	border-radius: 50%;
+	top:100%; /*top y left va en función a la posición*/
+	left:43%;
+	bottom:0;
+	box-shadow: 0 5px 6px #026868,0 3px 3px 3px #026868 inset;
+}
+
+#titulo{
+	position: absolute;
+	height:100%;
+	width:100%;
+	font-variant: small-caps;
+	font-size: 1em;
+}
+
+h1 {
+	font-family: impact;
+	text-align: center;
+	font-size:50px;
+	color:white;
+	text-shadow: 0.1em 0 0.1em #026868;
+	margin:95px;
+}
+
+p{
+	font-family: Verdana;
+}
+
+
+.parrafo{
+	margin-left:80px;
+	position: absolute;
+	width:45%;
+}
+
+
+#contact{
+	padding:25;
+    margin:150px 0;
+    left: 60%;
+}
+
+
+#contact h2 {
+  font-size: 40px;
+  font-family: impact;
+  color: #026868;
+    margin: 50px 0;
+}
+
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    left: 65%;
+    position: relative;
+    bottom: 80px;
+}
+
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: rgba(220,20,60,0.9);
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+#contact button[type="submit"]:hover {
+  background: #026868;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+
+fieldset {
+	font-family: impact;
+  color: #026868;
+  font-size: 20px;
+}
+
